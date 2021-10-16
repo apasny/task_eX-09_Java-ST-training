@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aquarium>
+    <fishes>
+        <fish id="1">
+            <name>Goldfish</name>
+            <price>10</price>
+        </fish>
+        <fish id="2">
+            <name>Guppies</name>
+            <price>5</price>
+        </fish>
+        <fish id="3">
+            <name>Angelfish</name>
+            <price>7</price>
+        </fish>
+        <fish id="4">
+            <name>Rainbowfish</name>
+            <price>15</price>
+        </fish>
+    </fishes>
+    <reptiles>
+        <reptile id="1">
+            <name>Turtle</name>
+            <price>25</price>
+        </reptile>
+        <reptile id="2">
+            <name>Snake</name>
+            <price>50</price>
+        </reptile>
+    </reptiles>
+    <crustaceans>
+        <crustacean id="1">
+            <name>Shrimp</name>
+            <price>8</price>
+        </crustacean>
+        <crustacean id="2">
+            <name>Crawfish</name>
+            <price>9</price>
+        </crustacean>
+    </crustaceans>
+    <accessories>
+        <accessory id="1">
+            <name>Aquarium</name>
+            <price>100</price>
+        </accessory>
+        <accessory id="2">
+            <name>Plants</name>
+            <price>18</price>
+        </accessory>
+    </accessories>
+</aquarium>
