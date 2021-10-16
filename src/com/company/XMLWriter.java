@@ -19,9 +19,23 @@ public class XMLWriter {
 
             writer.writeStartDocument();
             writer.writeCharacters("\n");
-            writer.writeStartElement("totalPrice");
-            writer.writeCharacters("\n" + sum + "\n");
+            writer.writeStartElement("result");
+            writer.writeCharacters("\n\t");
+            writer.writeStartElement("aquariumComposition");
+            writer.writeCharacters("\n\t");
+            for (AquariumComponent component :
+                    list) {
+                writer.writeCharacters(component.getName());
+                writer.writeCharacters("\n\t");
+            }
             writer.writeEndElement();
+            writer.writeCharacters("\n\t");
+            writer.writeStartElement("totalPrice");
+            writer.writeCharacters("\s" + sum + "\s");
+            writer.writeEndElement();
+            writer.writeCharacters("\n");
+            writer.writeEndElement();
+            writer.writeCharacters("\n");
             writer.writeEndDocument();
 
             writer.flush();
